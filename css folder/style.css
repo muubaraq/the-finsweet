@@ -71,8 +71,15 @@ justify-content: space-evenly;
   padding: 80px 0;
 }
 
-#booking-section, #query-section, #brand-services {
+#booking-section, #customer-review, #brand-services {
   padding: 80px 0;
+}
+
+#faq-section {
+  padding: 80px 0;
+  background: #E2E6E9;
+
+
 }
 
 #offer-section {
@@ -376,4 +383,121 @@ width: 20%;
 
 #brand-services .brand-images-section .brand-images img {
 width: 100%;
+}
+
+
+#customer-review {
+  background: #F2F2F2;
+
+}
+#customer-review .customer-header {
+  display: flex;
+  justify-content: center;
+}
+
+#customer-review .customer-header h3 {
+ font-size: 48px;
+  text-align: center;
+}
+
+#customer-review .slideshow-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+#customer-review .slide-relative {
+  position: relative;
+}
+
+#customer-review .slideshow-container .my-slide {
+  width: 87%;
+  margin-left: -59px;
+  margin-right: -59px;
+}
+
+#customer-review .slideshow-container .my-slide img {
+  width: 100%;
+}
+
+#customer-review .dash-section {
+  position: absolute;
+  top: 63%;
+  left: 44%;
+}
+
+#customer-review .left-right {
+  position: absolute;
+  top: 60%;
+  right: 4%;
+}
+
+.fa-dash {
+  color: black;
+}
+
+#customer-review .left-arrow, .right-arrow {
+ border-radius: 50%;
+ background-color: white;
+ padding: 15px;
+ cursor: pointer;
+
+}
+#customer-review .left-arrow:hover,  .right-arrow:hover {
+  color: white;
+  background-color: black;
+
+}
+
+.faq-container {
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+}
+
+#faq-section .faq-header {
+  font-size: 48px;
+  text-align: center;
+  font-weight: 700;
+}
+
+#faq-section .accordion-section {
+  margin-top: 60px;
+}
+
+.accordion {
+  background-color: #fff;
+  cursor: pointer;
+  padding: 15px;
+  width: 80%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  margin: 10px;
+  text-align: left;
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+}
+
+.accordion:after {
+  content: '\2795'; /* Unicode character for "plus" sign (+) */
+  font-size: 13px;
+  color: #fff;
+  float: right;
+  margin-left: 5px;
+  background: #FF6433;
+  padding: 5px;
+  
+  }
+  
+
+
+.active:after {
+  content: "\2796"; /* Unicode character for "minus" sign (-) */
 }
