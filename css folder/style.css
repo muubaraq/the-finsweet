@@ -458,16 +458,35 @@ width: 100%;
   width: 15%;
 }
 
-#customer-review .dash-section {
-   position: absolute;
-  top: 105%;
-  left: 44%;
+.left-to-right {
+  display: flex;
+  justify-content: flex-end;
+  
 }
 
-#customer-review .left-right {
-  position: absolute;
-  top: 105%;
-  right:0;
+.left-to-right i {
+  margin-right: 10px;
+  
+}
+
+.span-border {
+  display: flex;
+  justify-content:center ;
+
+}
+
+.span-border span {
+  width: 30px;
+  height: 5px;
+  background-color: grey;
+  margin-right: 10px;
+  margin-top: 15px;
+}
+
+.span-border .colored-span {
+
+  background-color: #FF6433;
+  
 }
 
 
