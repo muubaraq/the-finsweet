@@ -296,13 +296,36 @@ margin-top: 40px;
 }
 
 #offer-section .service-offer img {
-width: 100%;
+width: 30%;
 
 }
+
+
 
 .service-offer .services-render {
-width: 24.5%;
+width: 24%;
+padding: 50px;
+background-color: white;
+text-align: center;
+margin-top: 10px;
 }
+
+.service-offer .render-3 {
+  color: white;
+  background-color: black;
+  }
+
+.service-offer .services-render:hover {
+  background-color: #FF6433;
+  cursor: pointer;
+  transform: scale(1.1);
+  color: white;
+}
+
+.service-offer .services-render p {
+font-size: 24px;
+}
+
 
 .learn-more {
 display: flex;
