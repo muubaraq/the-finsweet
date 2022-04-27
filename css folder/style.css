@@ -557,12 +557,14 @@ width: 100%;
   border: none;
   outline: none;
   transition: 0.4s;
-  margin: 10px;
   text-align: left;
   font-size: 24px;
 }
 
+.collapse-btn {
+  margin-bottom: 9px;
 
+}
 
 .panel {
   padding: 30px;
@@ -573,7 +575,7 @@ width: 100%;
   color: #939191;
   width: 54.8%;
   margin-left: 15.3rem;
-  
+  text-align: left;
  
 
 }
