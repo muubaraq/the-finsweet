@@ -363,6 +363,13 @@ padding: 30px;
 font-size: 24px;
 }
 
+#query-section .experience h2 {
+  font-size: 24px;
+  color: #661CE7;
+  font-size: 58px;
+
+  }
+
 #brand-services .brand-header {
 display: flex;
 justify-content: center;
@@ -386,6 +393,8 @@ width: 100%;
 }
 
 
+
+
 #customer-review {
   background: #F2F2F2;
 
@@ -402,7 +411,7 @@ width: 100%;
 
 #customer-review .slideshow-container {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   margin-top: 60px;
 }
 
@@ -411,26 +420,56 @@ width: 100%;
 }
 
 #customer-review .slideshow-container .my-slide {
-  width: 87%;
-  margin-left: -59px;
-  margin-right: -59px;
+  display: flex;
+  align-items: center;
+
 }
 
+#customer-review .slideshow-container .myslide-sub-container{
+  background-color: #FFFFFF;
+  width: 47%;
+  padding: 30px;
+}
+
+#customer-review .slideshow-container .my-slide .name-section {
+  padding-left : 15px;
+}
+
+#customer-review .slideshow-container .my-slide .name-section h4{
+  font-size: 24px;
+
+}
+
+#customer-review .slideshow-container .my-slide .name-section p{
+  font-size: 16px;
+  color: #939191;
+}
+
+#customer-review  .name-review p{
+  font-size: 24px;
+  margin-top: 7px;
+  line-height: 30px;
+ 
+}
+
+
+
 #customer-review .slideshow-container .my-slide img {
-  width: 100%;
+  width: 15%;
 }
 
 #customer-review .dash-section {
-  position: absolute;
-  top: 63%;
+   position: absolute;
+  top: 105%;
   left: 44%;
 }
 
 #customer-review .left-right {
   position: absolute;
-  top: 60%;
-  right: 4%;
+  top: 105%;
+  right:0;
 }
+
 
 .fa-dash {
   color: black;
@@ -455,6 +494,7 @@ width: 100%;
   text-align: center;
 }
 
+
 #faq-section .faq-header {
   font-size: 48px;
   text-align: center;
@@ -463,32 +503,43 @@ width: 100%;
 
 #faq-section .accordion-section {
   margin-top: 60px;
+  width:100%;
 }
 
 .accordion {
   background-color: #fff;
   cursor: pointer;
   padding: 15px;
-  width: 80%;
+  width: 55%;
   text-align: left;
   border: none;
   outline: none;
   transition: 0.4s;
   margin: 10px;
   text-align: left;
+  font-size: 24px;
 }
 
+
+
 .panel {
-  padding: 0 18px;
+  padding: 30px;
   background-color: white;
   display: none;
   overflow: hidden;
+  font-size: 15px;
+  color: #939191;
+  width: 54.8%;
+  margin-left: 15.3rem;
+  
+ 
+
 }
 
 .accordion:after {
   content: '\2795'; /* Unicode character for "plus" sign (+) */
   font-size: 13px;
-  color: #fff;
+  color: white;
   float: right;
   margin-left: 5px;
   background: #FF6433;
