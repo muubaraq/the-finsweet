@@ -268,6 +268,7 @@ margin-bottom: 13px;
 
 #offer-section {
 background-color: #F2F2F2;
+min-height: 100vh;
 
 }
 
@@ -339,43 +340,68 @@ margin-right: 10px;
 }
 
 #query-section {
-background: url("https://res.cloudinary.com/muuba/image/upload/v1650470125/Image_1_l8sfa3.png") left no-repeat, url("https://res.cloudinary.com/muuba/image/upload/v1650470087/ovGrEUgrkyE_d8hnjt.png") right no-repeat;
-min-height: 100vh;
-background-size: 50%;
+
 background-color:#F2F2F2;
 position: relative;
-}
-
-.query-1 {
-display: flex;
-justify-content: center;
-align-items: center;
-}
-
-.query-contact {
-background: #FF6433;
-width: 65.8%;
-height: auto;
-
-padding: 87.10px;
-margin-top: 151px;
-margin-right: 125px;
 
 }
-.query-contact h3 {
-font-size: 48px;
-color: white;
+
+.query-1 .query-image-container {
+  display: flex;
+  width: 100%;
 }
 
-.query-contact button {
-padding: 14px;
-border-radius: 9px;
-border: none;
-background: #1E1B1B;
-color: white;
-margin-top: 29px;
+.query-1 .query-image-container .query-image-1{
+  background-image: url(/the-finsweet/images/query-image.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 17%;
+  height: 400px;
+}
+
+
+
+.query-1 .query-image-container .query-image-contact{
+  display: flex;
+  align-items: center;
+  width: 45%;
+  background: #FF6433;
+  height: 400px;
+  padding: 39px;
 
 }
+
+.query-1 .query-image-container .query-image-contact h3 {
+  font-size: 45px;
+  color: white;
+  
+}
+
+.query-1 .query-image-container .query-image-contact button {
+  background-color: #000;
+  border: none;
+  padding: 15px;
+  color: white;
+  font-size: 18px;
+  border-radius: 10px;
+  margin-top: 20px;
+  
+}
+
+.query-1 .query-image-container .query-image-2{
+  background-image: url(/the-finsweet/images/query-image2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 40%;
+  height: 400px;
+  background-position: right;
+}
+
+
+
+
+
+
 
 #query-section .experience {
 display: flex;
