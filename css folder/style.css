@@ -767,6 +767,11 @@ width: 100%;
   flex-direction: column;
 }
 
+#hero-section .container {
+  width: 100%;
+  padding: 20px;
+}
+
 #hero-section .text-section {
   width: 100%;
   order: 2;
@@ -778,7 +783,7 @@ width: 100%;
 }
 
 #hero-section .image-section {
-  width: 75%;
+  width: 100%;
   
   order: 1;
   margin-bottom: 25px;
