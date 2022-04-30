@@ -768,9 +768,14 @@ width: 100%;
 }
 
 
-#hero-section .text-section {
+#hero-section .container {
   width: 100%;
+}
+
+#hero-section .text-section {
+  width: 80%;
   order: 2;
+  margin-inline: auto;
 }
 
 #hero-section .text-section h1{
