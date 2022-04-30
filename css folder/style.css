@@ -784,9 +784,10 @@ width: 100%;
 }
 
 #hero-section .image-section {
-  width: 70%;
+  width: 100%;
   order: 1;
   margin-bottom: 25px;
+  background-size: contain;
 }
 
 
