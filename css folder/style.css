@@ -808,6 +808,10 @@ width: 100%;
   width: 100%; 
 }
 
+#quote-section .left-section .image-box {
+  width: 15%;
+}
+
 #booking-section .left-process{
   width: 100%;
   margin-bottom: 30px;
@@ -853,7 +857,6 @@ width: 100%;
 #booking-section p {
   font-size: 15px;
   margin-top: 15px;
-  text-align: ;
 }
 
 #offer-section .offer-header h2 {
