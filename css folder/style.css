@@ -1199,3 +1199,48 @@ width: 100%;
 }
 
 }
+
+/* laptop */
+@media only screen and (max-width: 1025px) and (min-width: 800px) {
+  .text-section h1 {
+    font-size: 54px;
+}
+
+#quote-section .left-section h2 {
+  font-size: 45px;
+}
+
+#quote-section .left-section .text-box {
+  width: 100%;
+}
+
+#booking-section .left-process h2 {
+  font-size: 42px;
+}
+
+#booking-section .right-process .text-box {
+  width: 100%;
+}
+
+.purple-line {
+  height: 79%;
+  margin-left: 14px;
+  margin-bottom: 13px;
+}
+
+.query-1 .query-image-container .query-image-contact h3 {
+  font-size: 30px;
+}
+
+#customer-review .name-review p {
+  font-size: 22px;
+  margin-top: 7px;
+  line-height: 30px;
+}
+
+.accordion {
+  
+  font-size: 20px;
+}
+
+}
