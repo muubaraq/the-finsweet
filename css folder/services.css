@@ -1,0 +1,429 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+
+
+  
+  --clr-dark: #1E1B1B;
+  --clr-primary: #FF6433;
+  --clr-secondary: #661CE7;
+  --clr-mint:#00D289;
+  --clr-steelgrey:#E2E6E9;
+  --clr-lightgrey:#F2F2F2;
+
+
+
+  --fs-title1: 2rem;
+  --fs-title2: 1.5rem;
+  --fs-h1:4rem;
+  --fs-h2:3.625rem;
+  --fs-h3: 3rem;
+  --fs-h4: 2.5rem;
+  --fs-h5: 2rem;
+  --fs-h6: 1.25rem;
+  --fs-body: 1rem;
+
+  --fs-p1: 1.125rem;
+  --fs-p2: 1rem;
+  --fs-caption: 0.75rem;
+
+}
+
+/* General styles */
+body {
+  
+  margin: 0;
+  font-size: var(--fs-body);
+  line-height: 1;
+  background-color:  #ffffff;
+}
+
+
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+
+
+/* Typography */
+
+
+h1 {
+  font-size: var(--fs-h1);
+}
+
+h2 {
+  font-size: var(--fs-h2);
+}
+
+h3 {
+  font-size: var(--fs-h3);
+}
+
+h4 {
+  font-size: var(--fs-h4);
+}
+
+h5 {
+  font-size: var(--fs-h5);
+}
+
+h6{
+  font-size: var(--fs-h6);
+}
+
+
+/* sections padding and container */
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+#hero-section, #diagnostic-section, #work-section {
+  padding: 5em 0;
+}
+
+
+/* header styling */
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.2500em 0.3125em;
+}
+
+.main-header .hamburger {
+  font-size: 2.5rem;
+  cursor: pointer;
+  display: none;
+}
+
+.right-section {
+  display: flex;
+  align-items: center;
+}
+
+.right-section ul {
+  list-style: none;
+  display: flex;
+}
+
+.road-assistance {
+  display: flex;
+  padding-left: 1.2500em;
+}
+
+.right-section ul li {
+  margin-right: 1.2500em;
+}
+
+.right-section ul li a {
+  text-decoration: none;
+  color: #000;
+}
+
+.right-section .navigation {
+  border-right: 2px solid #ccc;
+}
+
+.road-assistance .icon {
+  margin-right: 0.6250em;
+}
+
+/* hero-section styling */
+#hero-section .flex {
+  display: flex;
+}
+
+#hero-section .flex .image-section {
+  width: 40%;
+  background-image: url("/the-finsweet/images/service-image1.png");
+  background-size: cover;
+  background-position: left center;
+  background-repeat: no-repeat;
+ 
+}
+
+
+#hero-section .flex .text-section {
+   display: flex;
+  flex-direction: column;
+   align-items: flex-start; 
+   justify-content: center;
+  width: 60%;
+  background-color:#1E1B1B;
+  height: 400px;
+  
+}
+
+.inner-text-section {
+  margin-left: 3.95em; 
+
+}
+.button {
+  margin-top: 0.625em;
+}
+
+
+#hero-section .flex .text-section  h1 {
+  color: var(--clr-lightgrey);
+}
+
+#hero-section .flex .text-section p {
+  color: var(--clr-lightgrey);
+  font-size: var(--fs-p1);
+  width: 79%;
+  line-height: 1.5;
+  margin-top:0.6250em;
+ 
+}
+
+/* diagnostic section */
+#diagnostic-section{
+  background-color: #F5F5F5;
+  min-height: 100vh;
+}
+
+#diagnostic-section .flex {
+   display: flex; 
+   justify-content: space-evenly;
+   align-items: center;
+  
+ 
+  
+}
+
+ .car-diagnostic-img-section {
+  width: 45%;
+  background-color: white;
+  padding: 2rem;
+ }
+
+ .auto-diagnostic-text h3 {
+   margin: 0.629em 0;
+ }
+
+ .diagnostic-subtitle {
+  font-size: var(--fs-title2);
+opacity:0.5;
+width: 95%;
+margin-bottom: 0.629em;
+line-height: 1.2;
+}
+
+.diagnostic-link {
+  display: flex;
+  margin-top: 2.2em;
+  font-size: var(--fs-p1);
+}
+
+.diagnostic-link a {
+  text-decoration: none;
+  color: black;
+  margin-right: 0.625em;
+}
+
+.diagnostic-link a:hover {
+  color: var(--clr-primary);
+}
+
+ .car-diagnostic-section {
+   width: 50%;
+   display: flex;
+   justify-content: space-around;
+   flex-wrap: wrap ;
+  align-items: center;
+ }
+
+ .car-diagnostic-section .image-box {
+  width: 44%;
+  padding: 2.5em;
+  background-color: white;
+  text-align: center;
+  margin-top: 0.6250em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ 
+  }
+
+  .car-diagnostic-section .image-box:hover {
+    background-color: var(--clr-primary);
+  }
+
+  .car-diagnostic-section .image-box img {
+    width: 50%;
+  }
+
+  .car-diagnostic-section .image-box p {
+    font-size: var(--fs-title2);
+    margin-top: 0.6250em;
+  }
+
+  #work-section .flex {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .work-flow-section {
+    width: 42%;
+  }
+
+  .workflow-text-section {
+    display: flex;
+    margin-top: 2.5em;
+    align-items: center;
+  }
+
+  .icon-text  p {
+   font-size: var(--fs-p2);
+  }
+
+  .icon-text i {
+    background-color: #00D289;
+    color: #ffffff;
+    padding: 0.7em;
+    border-radius: 1em;
+    margin-right: 0.625em;
+  }
+
+  .workflow-image-section {
+    width: 40%;
+    display: flex;
+   
+  }
+  .workflow-image-section .image-div {
+    margin-right: 0.625em;
+  }
+
+
+  .work-section-2 {
+    padding-bottom: 7em;
+    padding-right:2em;
+    padding-left: 2em;
+  }
+  .work-section-2 .flex {
+    display: flex;
+    /* justify-content: space-around; */
+    margin-top: 9em;
+  }
+
+  .work-section-2-image-section {
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    margin-left: 1.59em;
+  }
+  .work-section-image {
+    margin-right: 0.625em;
+  }
+
+  .work-section-2-text {
+    width: 40%;
+  }
+
+  .work-section-2-text p {
+    font-size: var(--fs-p1);
+    opacity: 0.5;
+    width: 79%;
+    margin: .6em 0;
+    line-height: 1.2;
+  }
+
+   button {
+    background-color: var(--clr-primary);
+    color:#ffffff;
+    padding: 0.9em;
+    border: none;
+    border-radius: 0.4em;
+    cursor: pointer;
+    
+  }
+
+
+  button:hover {
+    background-color: var(--clr-dark);
+    transform: scale(1.1);
+  }
+
+
+  #intouch-section {
+    background-color: #1E1B1B;
+    padding: 60px;
+  
+  }
+  
+  #intouch-section .intouch-header h3 {
+    font-size: 48px;
+    color: white;
+  }
+  
+  #intouch-section .inner-flex {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  #intouch-section .inner-flex .intouch-header, .help-line-section {
+    width: 45%;
+    margin-bottom: -19px;
+  }
+  
+  #intouch-section .inner-flex .intouch-header .icons {
+    color: white;
+    margin-top: 15px;
+  }
+  
+  #intouch-section .inner-flex .intouch-header .icons i {
+    color: white;
+    padding-right: 15px;
+  }
+  
+  #intouch-section .inner-flex .help-line-section .contact-style1{
+     font-size: 18px;
+     color: #FFFFFF;
+     opacity: 0.6;
+     margin-top: 9px;
+  
+  }
+  
+  #intouch-section .inner-flex .help-line-section .contact-style{
+    font-size: 24px;
+    color: #FFFFFF;
+    margin-top: 9px;
+  }
+  
+  #footer-section {
+    background: #1E1B1B;
+  
+  }
+  
+  #footer-section .footer-flex {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+  
+  }
+  
+  .list-section ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  .list-section ul a {
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+    padding-right: 25px;
+    
+  }
+  
+  .copyright-section {
+    color: #939191;
+    font-size: 16px;
+  
+  }
