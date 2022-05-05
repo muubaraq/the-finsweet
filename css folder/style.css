@@ -784,7 +784,7 @@ width: 100%;
 }
 
 #hero-section .image-section {
-  width: 100%;
+  width: aspect-ratio;
   padding:10px;
   order: 1;
   margin-bottom: 25px;
