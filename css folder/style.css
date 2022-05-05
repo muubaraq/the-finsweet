@@ -769,7 +769,7 @@ width: 100%;
 
 
 #hero-section .container {
-  width: 100%;
+  width: 85%;
 }
 
 #hero-section .text-section {
@@ -780,7 +780,7 @@ width: 100%;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  min-height: 100vh;
+  min-height: 50vh;
   padding: 20px;
 }
 
