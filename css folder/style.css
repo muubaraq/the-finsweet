@@ -784,7 +784,7 @@ width: 100%;
 }
 
 #hero-section .image-section {
-  width: aspect-ratio;
+  width: 80%;
   padding:10px;
   order: 1;
   margin-bottom: 25px;
@@ -847,11 +847,7 @@ width: 100%;
 }
 
 .purple-line {
-  
-  height: 79%;
-  border-left: 4px dotted #FF6433;
-  margin-left: 19px;
-  margin-bottom: 15px;
+  margin-left: 20px;
 }
 
 #booking-section .right-process .text-box {
@@ -1044,6 +1040,157 @@ width: 100%;
 .copyright-section {
   
   font-size: 12px;
+}
+
+}
+
+/* tablet */
+@media only screen and (max-width: 769px){
+  .road-assistance {
+    display: none;  
+}
+
+.right-section .navigation {
+  border-right: none;
+}
+
+#hero-section .text-section h1 {
+  font-size: 35px;
+}
+
+#quote-section .container {
+  width: 90%;
+  
+}
+
+#quote-section .left-section .text-box {
+  width: 80%;
+}
+#quote-section .left-section .image-box {
+  width: 10%;
+}
+
+#quote-section .left-section h2, #quote-section .right-form-section h3 {
+  font-size:30px;
+}
+ 
+#booking-section .left-process h2 {
+  font-size: 33px;
+}
+
+#booking-section .left-process p {
+  font-size: 16px;
+  width: 100%;
+ 
+}
+
+#booking-section .right-process .image-box {
+  width: 17%;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.purple-line {
+  height: 75%;
+  margin-left: 19px;
+  margin-bottom: 13px;
+}
+
+#booking-section .right-process .text-box {
+  width: 100%;
+}
+
+#offer-section .offer-header h2 {
+  font-size: 32px;
+  margin-top: 5px;
+
+}
+#offer-section .service-offer {
+  justify-content: space-evenly;
+ 
+}
+
+.query-1 .query-image-container .query-image-1 {
+ 
+  height: 300px;
+}
+
+.query-1 .query-image-container .query-image-2 {
+ 
+  height: 300px;
+}
+
+.query-1 .query-image-container .query-image-contact {
+  height: 300px;
+  
+}
+
+.query-1 .query-image-container .query-image-contact h3 {
+  font-size: 22px;
+
+}
+
+#query-section .experience h2 {
+  font-size: 39px;
+  text-align: center;
+}
+
+#query-section .experience p {
+  font-size: 20px;
+  text-align: center;
+}
+
+.service-offer .services-render {
+  width: 40%;
+  padding: 50px;
+  
+}
+
+#customer-review .container {
+  width: 90%;
+}
+
+#customer-review .customer-header h3 {
+  font-size: 38px;
+
+}
+
+#customer-review .name-review p {
+  font-size: 16px;
+  line-height: 22px;
+}
+
+#customer-review .slideshow-container .myslide-sub-container {
+
+  width: 47%;
+}
+
+.accordion {
+  
+  font-size: 18px;
+}
+
+.panel {
+  margin-left: 8.68rem;
+  text-align: left;
+}
+
+#intouch-section .intouch-header h3 {
+  font-size: 28px;
+
+}
+
+#intouch-section .inner-flex .help-line-section .contact-style {
+  font-size: 15px;
+}
+
+#footer-section .footer-flex {
+ flex-direction: column;
+  align-items: center;
+}
+
+.list-section ul {
+ margin: 10px 0 10px 0;
 }
 
 }
