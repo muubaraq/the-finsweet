@@ -485,6 +485,9 @@ line-height: 1.2;
    margin-bottom: 10px;
 }
 
+#hero-section .container {
+  width: 100%;
+}
 
 #hero-section .flex {
   flex-direction: column;
