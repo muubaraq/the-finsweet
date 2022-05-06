@@ -577,11 +577,22 @@ h3 {
 }
 .work-section-2-image-section {
   width: 100%;
+  order: 1;
+  
  
+}
+
+
+.work-section-2-text button {
+  margin-top: 0.9em;
+  margin-bottom: 1.5em;
 }
 
 .work-section-2 {
   margin-top: -5em;
+  margin-left: 0;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 .work-section-2-text {
@@ -589,12 +600,12 @@ h3 {
 }
 
 .work-section-2-text h3 {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   margin-top: 1em;
 }
 
 .work-section-2-text p {
-  font-size: .9rem;
+  font-size: .8rem;
   opacity: 0.5;
   width: 100%;
   margin: 0.6em 0;
