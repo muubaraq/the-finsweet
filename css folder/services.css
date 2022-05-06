@@ -322,7 +322,7 @@ line-height: 1.2;
   .work-section-2-image-section {
     display: flex;
     justify-content: space-between;
-    width: 30%;
+    width: 45%;
     margin-left: 1.59em;
   }
   .work-section-image {
@@ -330,13 +330,17 @@ line-height: 1.2;
   }
 
   .work-section-2-text {
-    width: 40%;
+    width: 45%;
+  }
+  
+  .work-section-2-text h3{
+    font-size: 2.5rem;
   }
 
   .work-section-2-text p {
     font-size: var(--fs-p1);
     opacity: 0.5;
-    width: 79%;
+    width: 100%;
     margin: .6em 0;
     line-height: 1.2;
   }
@@ -349,6 +353,10 @@ line-height: 1.2;
     border-radius: 0.4em;
     cursor: pointer;
     
+  }
+
+  .work-section-2-text button {
+    margin-top: 3.5em;
   }
 
 
@@ -433,3 +441,311 @@ line-height: 1.2;
     font-size: 16px;
   
   }
+
+  /* mobile biew */
+@media only screen and (max-width: 600px) {
+  .main-header .hamburger {
+    display: block;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.main-header .hamburger:hover {
+    background-color: #FF6433;
+    color: white;
+}
+
+
+
+  .right-section {
+    flex-direction: column;
+    align-items: center;
+    display: none;
+}
+
+  .right-section ul {
+    flex-direction: column;
+    align-items: center;
+}
+
+  .right-section .navigation {
+    border-right: none;
+}
+
+  .right-section ul, li {
+   width: 100%;
+}
+
+.right-section ul li a {
+   display: block;
+}
+
+.right-section ul li {
+   margin-bottom: 10px;
+}
+
+
+#hero-section .flex {
+  flex-direction: column;
+}
+
+#hero-section .flex .image-section {
+  display: none;
+}
+
+#hero-section .flex .text-section {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  background:
+  linear-gradient(90deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(/the-finsweet/images/service-image1.png);
+    background-size: cover;
+    background-position: left center;
+    background-repeat: no-repeat;
+   
+}
+h1 {
+  font-size: 2.5rem;
+}
+
+h3 {
+  font-size: 1.9rem;
+}
+
+.inner-text-section {
+  margin-left: 1.25em;
+}
+
+#hero-section .flex .text-section p {
+  font-size: .99rem;
+  width: 100%;
+}
+
+#diagnostic-section .flex {
+  display: flex;
+  flex-direction: column;
+
+}
+.car-diagnostic-img-section {
+  width: 100%;
+
+}
+
+.diagnostic-subtitle {
+  font-size: .8rem;
+  opacity: 0.5;
+  width: 100%;
+  margin-bottom: 0.629em;
+  line-height: 1.2;
+}
+.diagnostic-link a {
+  font-size: .8rem;
+}
+
+.car-diagnostic-section {
+  width: 100%;
+  margin-top: 2em;
+ 
+}
+
+.car-diagnostic-section .image-box {
+  width: 47%;
+}
+
+.car-diagnostic-section .image-box p {
+  font-size: .7rem;
+
+}
+
+#work-section .flex {
+  flex-direction: column;
+  align-items: center;
+}
+
+.work-flow-section {
+  width: 100%;
+}
+
+.workflow-image-section {
+  margin-top:2em;
+  width: 100%;
+
+}
+.work-section-2-image-section {
+  width: 100%;
+ 
+}
+
+.work-section-2 {
+  margin-top: -5em;
+}
+
+.work-section-2-text {
+  width: 100%;
+}
+
+.work-section-2-text h3 {
+  font-size: 1.5rem;
+  margin-top: 1em;
+}
+
+.work-section-2-text p {
+  font-size: .9rem;
+  opacity: 0.5;
+  width: 100%;
+  margin: 0.6em 0;
+  line-height: 1.2;
+}
+
+.work-section-2-text button {
+  margin-top: .9em; 
+}
+
+#intouch-section .inner-flex {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#intouch-section .inner-flex .intouch-header, .help-line-section {
+  width: 100%;
+  
+}
+
+#intouch-section .inner-flex .intouch-header {
+  margin-bottom: 20px;
+}
+
+#intouch-section .intouch-header h3 {
+  font-size: 29px;
+  
+}
+
+#intouch-section .inner-flex .help-line-section .contact-style {
+  font-size: 12px;
+  
+}
+
+#footer-section .footer-flex {
+  flex-direction: column;
+  align-items: center;
+}
+
+.list-section ul {
+  flex-direction:column ;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  margin-left: 40px
+  
+  
+
+}
+
+.list-section ul li {
+  margin-bottom: 10px;
+  padding: 5px;
+  
+}
+
+.copyright-section {
+  
+  font-size: 12px;
+}
+
+}
+
+@media only screen and (max-width: 769px) and (min-width: 601px){
+  .road-assistance {
+    display: none;  
+}
+
+.right-section .navigation {
+  border-right: none;
+}
+
+#hero-section .flex .text-section h1 {
+  font-size: 2.2rem;
+}
+
+#hero-section .flex .text-section p {
+  width: 100%;
+  font-size: 1rem;
+
+}
+.inner-text-section {
+  margin-left: 1.5em;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+.diagnostic-subtitle {
+  font-size: 1rem;
+  opacity: 0.5;
+  width: 95%;
+
+}
+
+.car-diagnostic-section .image-box p {
+  font-size: .7rem;
+ 
+}
+
+#work-section .flex {
+  flex-direction: column;
+  justify-content: center;
+}
+
+.work-flow-section {
+  text-align: center;
+}
+
+.workflow-text-section {
+  display: flex;
+  margin-top: 2.5em;
+  margin-bottom: 2.5em;
+}
+
+.work-section-2-image-section {
+  order: 1;
+  margin-bottom: 2.5em;
+}
+work-section-2-text {
+  order: 2;
+ 
+}
+
+
+.work-section-2-text button {
+    margin-top: .9em;
+    margin-bottom: 2.5em;
+  }
+
+  #intouch-section .intouch-header h3 {
+    font-size: 28px;
+  
+  }
+  
+  #intouch-section .inner-flex .help-line-section .contact-style {
+    font-size: 15px;
+  }
+  
+  #footer-section .footer-flex {
+   flex-direction: column;
+    align-items: center;
+  }
+  
+  .list-section ul {
+   margin: 10px 0 10px 0;
+  }
+  
+
+
+.work-flow-section, .workflow-image-section, .work-section-2-image-section, .work-section-2-text {
+  width: 100%;
+}
+
+
+}
