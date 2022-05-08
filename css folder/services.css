@@ -649,14 +649,19 @@ h3 {
   
 }
 
+#footer-section .container {
+  width: 100%;
+}
 #footer-section .footer-flex {
   flex-direction: column ;
-   align-items: center; 
+   /* align-items: center;  */
   justify-content: center; 
 }
 
 .list-section ul {
- 
+ flex-direction: column;
+ /* align-items: flex-start; */
+ /* justify-content: flex-start; */
    margin-top: 10px;
   margin-bottom: 20px;
 
@@ -671,11 +676,7 @@ h3 {
   
 }
 
-.list-section ul li a{
-  
- padding: px; 
- 
-}
+
 
 .copyright-section {
   
@@ -767,6 +768,7 @@ work-section-2-text {
   }
   
   .list-section ul {
+    
    margin: 10px 0 10px 0;
   }
   
