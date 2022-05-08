@@ -781,6 +781,10 @@ width: 100%;
   width: 100%;
 }
 
+#hero-section {
+  padding: 0;
+}
+
 #hero-section .text-section {
   width: 100%;
   order: 2;
@@ -1022,7 +1026,11 @@ width: 100%;
 #intouch-section .inner-flex {
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
+}
+
+#intouch-section .container {
+  width: 100%;
 }
 
 #intouch-section .inner-flex .intouch-header, .help-line-section {
@@ -1050,10 +1058,7 @@ width: 100%;
 }
 
 .list-section ul {
-  flex-direction:column ;
-  margin-top: 10px;
-  margin-bottom: 20px;
-  margin-left: 40px
+  margin: 10px 0 10px 0;
   
   
 
